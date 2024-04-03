@@ -1,0 +1,20 @@
+Iteratia 1:
+-Inregistrare si Autentificare -Verificator
+-Inregistrare si Autentificare -Programator
+-Adaugare Bug - Verificator
+-Vizualizare Bug-Verificator
+-Baza de date
+-UI
+
+Iteratia 2:
+-Vizualizare Istoric Bug-uri -Verificator
+-Vizualizare Bug-Programator
+-Stergere Bug-Programator
+-Update - Tester+Programator
+-Fixed - Programator
+
+Iteratia 3:
+-Cautare Bug-uri -Verificator
+-Cautare Bug-uri -Programator
+-Sortare Bug-uri -Programator
+
