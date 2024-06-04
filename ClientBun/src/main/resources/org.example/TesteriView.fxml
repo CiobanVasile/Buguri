@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.TesterController">
+   <children>
+      <ListView fx:id="ListViewBuguri" layoutX="31.0" layoutY="37.0" prefHeight="331.0" prefWidth="200.0" />
+      <TextField fx:id="Denumire" layoutX="341.0" layoutY="50.0" promptText="Denumire" />
+      <TextField fx:id="Descriere" layoutX="341.0" layoutY="88.0" promptText="Descriere" />
+      <Button layoutX="379.0" layoutY="165.0" mnemonicParsing="false" onAction="#AdaugaBug" text="Adauga Bug" />
+      <Button layoutX="553.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBacktoLogin" text="X" />
+   </children>
+</AnchorPane>

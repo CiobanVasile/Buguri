@@ -1,0 +1,6 @@
+rootProject.name = 'ISS_FINAL'
+include 'Domain'
+include 'Repository'
+include 'Service'
+include 'ClientBun'
+
