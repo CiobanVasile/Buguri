@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="598.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.TesterController">
+   <children>
+      <ListView fx:id="ListViewBuguri" layoutX="30.0" layoutY="3.0" prefHeight="193.0" prefWidth="614.0" />
+      <TextField fx:id="Denumire" layoutX="257.0" layoutY="216.0" promptText="Denumire" />
+      <TextField fx:id="Descriere" layoutX="257.0" layoutY="247.0" promptText="Descriere" />
+      <Button layoutX="274.0" layoutY="287.0" mnemonicParsing="false" onAction="#AdaugaBug" text="Adauga Bug" />
+      <Button layoutX="666.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBacktoLogin" text="X" />
+      <ListView fx:id="ListViewIstoricBuguri" layoutX="30.0" layoutY="379.0" prefHeight="193.0" prefWidth="614.0" />
+      <Button layoutX="509.0" layoutY="287.0" mnemonicParsing="false" onAction="#UpdateBug" text="Update Bug" />
+      <TextField fx:id="DenumireUpdate" layoutX="475.0" layoutY="216.0" promptText="Denumire" />
+      <TextField fx:id="DescriereUpdate" layoutX="475.0" layoutY="247.0" promptText="Descriere" />
+      <Button layoutX="81.0" layoutY="287.0" mnemonicParsing="false" onAction="#FindBug" text="Cautare Bug-uri" />
+      <TextField fx:id="DenumireCautare" layoutX="57.0" layoutY="253.0" promptText="Denumire" />
+      <Button layoutX="81.0" layoutY="331.0" mnemonicParsing="false" onAction="#init" text="Refresh" />
+   </children>
+</AnchorPane>
